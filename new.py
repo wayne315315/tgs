@@ -25,12 +25,6 @@ depth_csv_path = "./input/depths.csv"
 image_path = "./input/train/images/{}.png"
 mask_path = "./input/train/masks/{}.png"
 
-"""
-train_csv_path = "../tgs/data/train.csv"
-depth_csv_path = "../tgs/data/depths.csv"
-image_path = "../tgs/data/train/images/{}.png"
-mask_path = "../tgs/data/train/masks/{}.png"
-"""
 
 def coverage_to_class(val):    
 	for i in range(0, 11):
